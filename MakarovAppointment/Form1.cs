@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MakarovAppointment.Site;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,11 @@ namespace MakarovAppointment
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void BtnLaunch_Click(object sender, EventArgs e)
+        {
+            MainPage mainPage = new MainPage();
         }
     }
 }
