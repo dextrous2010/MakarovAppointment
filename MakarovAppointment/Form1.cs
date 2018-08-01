@@ -21,6 +21,8 @@ namespace MakarovAppointment
         private void BtnLaunch_Click(object sender, EventArgs e)
         {
             MainPage mainPage = new MainPage();
+            mainPage.DoLogin("0680420918", "darianna");
+            mainPage.MakeAnAppointment();
         }
     }
 }
